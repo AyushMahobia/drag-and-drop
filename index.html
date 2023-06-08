@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link src="index.js" defer>
     <title>Drag and drop</title>
 </head>
+
 <body>
-    <div class="container">
-        <p class="draggable" draggable="true">1</p>
-        <p class="draggable" draggable="true">2</p>
+    <div class="main-box">
+        <div class="container" id="parent_container">
+            <p class="draggable" draggable="true">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullameligendimagnam officia!</p>
+
+            <p class="draggable" draggable="true">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam illo quam architecto explicabo. Vel, itaque. Mollitia, blanditiis nesciunt minus nemo sit quaerat velit. At debitis, ipsam unde dolore quam ratione veniam maxime ea fugit quas recusandae quos dicta modirepudiandae commodi odio. Perferendis ab reprehenderit facere</p>
+
+            <img src="image.jpg" class="draggable" alt="image" draggable="true">
+        </div>
+        <div class="container"></div>
     </div>
-    <div class="container">
-        <p class="draggable" draggable="true">3</p>
-        <p class="draggable" draggable="true">4</p>
-    </div>
+    <button type="button">Reset</button>
+    <script src="index.js"></script>
 </body>
+
 </html>
