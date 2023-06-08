@@ -9,4 +9,5 @@ body{
 .draggable{
     padding: 1rem;
     background-color: white;
+    cursor: move;
 }
